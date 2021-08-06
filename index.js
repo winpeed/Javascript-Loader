@@ -25,6 +25,7 @@ function stopCircle(){
 // Function to start the rotation of the Loaders at Intervals of 0.1secs
 function startAnimation(){
     setInterval(rotateCircle, 100)
+    btn.textContent = `Faster!`
 }
 
 // Function to stop the rotation of the loaders by reloading the page
