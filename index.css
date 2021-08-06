@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+body,
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    padding: 2em;
+}
+
+.loader {
+    height: 100px;
+    width: 100px;
+    border: 16px solid hotpink;
+    border-top: 16px solid black;
+    border-bottom: 16px solid black;
+    border-radius: 50%;
+    margin-top: -6.2em;
+    margin-bottom:-1em
+}
+
+button { 
+    border: 3px solid black;
+    padding: 1em 2em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+}
+
+.btn-section{
+    margin-top: 2em
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    background: hotpink;
+    padding: 0.6em;
+    margin-top: 0;
+    color: black;
+}
